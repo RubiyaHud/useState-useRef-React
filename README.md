@@ -3,7 +3,11 @@
 `useRef` is a special `React Hook` that lets a component keep track of a **Value** or a **DOM element** without causing the component to **re-render** (or reload the screen) when that value changes.
 
 ### Example:
-![image](https://github.com/user-attachments/assets/29fe33db-e09a-44e5-8e58-4c00a2c8d7b5)
+![image](https://github.com/user-attachments/assets/34ecae0e-860d-4600-a8a8-e090b9ed08d6)
+
+### Output:
+![image](https://github.com/user-attachments/assets/c9b13e31-f0d7-494e-babb-dfc81509c71b)
+
 
 ## Explanation:
  - `clickCount` initial value is set to `0`
