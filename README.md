@@ -39,7 +39,7 @@ This adds `1` to the number stored in `clickCount`, but since it is stored in a 
 
 # Render and Re-render in React:
 ## Render:
-Rendering is when React takes your component and turns it into visible UI — like drawing your app on a blank canvas.
+./render.png Rendering is when React takes your component and turns it into visible UI — like drawing your app on a blank canvas.
 ## Re-render:
 
 
