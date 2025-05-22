@@ -30,12 +30,13 @@ const clickCount = useRef(0);
 We are creating a **ref object** where:
  - `clickCount.current` starts at `0`
  - We can **read or change** the value using `.current`
+   
 ### In the Example:
 ```
 clickCount.current += 1;
 ```
 This adds `1` to the number stored in `clickCount`, but since it is stored in a `.current` property (and not in state), React does not `re-render` the UI.
-![image](https://github.com/user-attachments/assets/f47293bc-455a-46bd-8003-b62ed155d75b)
+
 
 
 
