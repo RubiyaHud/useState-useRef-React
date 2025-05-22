@@ -38,8 +38,8 @@ clickCount.current += 1;
 This adds `1` to the number stored in `clickCount`, but since it is stored in a `.current` property (and not in state), React does not `re-render` the UI.
 
 # Render and Re-render in React:
-## Render:
-./render.png Rendering is when React takes your component and turns it into visible UI — like drawing your app on a blank canvas.
+## Render ![GitHub Icon](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png) :
+ Rendering is when React takes your component and turns it into visible UI — like drawing your app on a blank canvas.
 ## Re-render:
 
 
