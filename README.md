@@ -1,6 +1,6 @@
 # useRef
 
-`useRef` is a special `React Hook` that lets a component keep track of a **Value** or a **DOM element** without causing the component to **re-render** (or reload the screen) when that value changes.
+`useRef` is a special `React Hook` that lets a component keep track of a **Value** or a **DOM element** without causing the component to **re-render** (or **reload** the screen) when that value changes.
 
 ### Example:
 ![image](https://github.com/user-attachments/assets/34ecae0e-860d-4600-a8a8-e090b9ed08d6)
