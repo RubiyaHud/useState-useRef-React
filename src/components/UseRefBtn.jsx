@@ -3,6 +3,7 @@ import { useRef } from 'react';
 const UseRefBtn = () => {
 
     const clickCount = useRef(0);
+    
     function handleClick() {
         clickCount.current += 1;
         console.log(clickCount)
@@ -13,7 +14,7 @@ const UseRefBtn = () => {
     return (
         <>
             <div className='max-w-[1170px] m-auto text-center'>
-                <h1 className='bg-amber-100'>useRef button</h1>
+                <h1 className='mt-[20px] bg-amber-100'>useRef button</h1>
                 <p>You clicked {clickCount.current} times</p>
                 <button onClick={handleClick} className='cursor-pointer p-5 mt-2.5 rounded-2xl bg-cyan-200' >
                     Click me
@@ -24,3 +25,4 @@ const UseRefBtn = () => {
 }
 
 export default UseRefBtn
+
