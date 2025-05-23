@@ -6,7 +6,7 @@
 ![image](https://github.com/user-attachments/assets/34ecae0e-860d-4600-a8a8-e090b9ed08d6)
 
 ### Output:
-Here, `useRef` button is clicked `3` times, which updates (or changes) the `clickCount.current` value but the screen is not reloading to show the updated value.
+
 ![image](https://github.com/user-attachments/assets/0fca471a-dbd1-4ac2-8ec9-508a6131c0ce)
 
 ![image](https://github.com/user-attachments/assets/23b24441-ee51-43c5-b802-f4d1c54c3524)
