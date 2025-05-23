@@ -25,35 +25,28 @@
 
 ### Explanation:
  - `clickCount` initial value is set to `0`
-   
    ```
     const clickCount = useRef(0);
    ```   
  - `clickCount` stores a number that changes when we click the `button`
  - Because it is in a `useRef`, React does not **refresh** the screen every time the number changes
  - We can still **access and update** the number inside `clickCount.current`
-   
-![image](https://github.com/user-attachments/assets/6826b450-306c-4e47-8e48-8ea7fa4c49da)
-
-When we use `useRef`, it gives an **object** that looks like this:
-```
-{ current: value }
-```
-So in this line:
-
-```
-const clickCount = useRef(0);
-```
-
-We are creating a **ref object** where:
- - `clickCount.current` starts at `0`
- - We can **read or change** the value using `.current`
-   
-### In the Example:
-```
-clickCount.current += 1;
-```
-This adds `1` to the number stored in `clickCount`, but since it is stored in a `.current` property (and not in state), React does not `re-render` the UI.
+ - When we use `useRef`, it gives an **object** that looks like this:
+   ```
+   { current: value }
+   ```
+   So in this line:
+   ```
+   const clickCount = useRef(0);
+   ```
+   We are creating a **ref object** where:
+    - `clickCount.current` starts at `0`
+    - We can **read or change** the value using `.current`
+ - In the Example:
+   ```
+   clickCount.current += 1;
+   ```
+   This adds `1` to the number stored in `clickCount`, but since it is stored in a `.current` property (and not in state), React does not `re-render` the UI.
 
 ## Render and Re-render in React:
 ###  ![render Icon](https://github.com/RubiyaHud/useState-useRef-React/blob/main/render.png) Render:
