@@ -1,15 +1,18 @@
 # useState
 `useState` is a built-in `React Hook` that gives the function components a way to remember values that change over time, and automatically update the screen when those values change.
+### Example:
+![image](https://github.com/user-attachments/assets/f9ea3828-6672-4b2f-9944-099243ec6c85)
+### Output:
+![image](https://github.com/user-attachments/assets/ebba77d0-34dc-46f5-8f30-b918192c7a1f)
+
 
 # useRef
-
 `useRef` is a special `React Hook` that lets a component keep track of a **Value** or a **DOM element** without causing the component to **re-render** (or **reload** the screen) when that value changes.
 
 ### Example:
 ![image](https://github.com/user-attachments/assets/34ecae0e-860d-4600-a8a8-e090b9ed08d6)
 
 ### Output:
-
 ![image](https://github.com/user-attachments/assets/0fca471a-dbd1-4ac2-8ec9-508a6131c0ce)
 
 ![image](https://github.com/user-attachments/assets/23b24441-ee51-43c5-b802-f4d1c54c3524)
