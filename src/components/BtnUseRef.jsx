@@ -1,16 +1,15 @@
+
 import { useRef } from 'react';
 
-const UseRefBtn = () => {
-
+const BtnUseRef = () => {
     const clickCount = useRef(0);
-    
+
     function handleClick() {
         clickCount.current += 1;
         console.log(clickCount)
         console.log(`Button clicked ${clickCount.current} times`);
         // The component does NOT re-render when clickCount changes
     }
-
     return (
         <>
             <div className='max-w-[1170px] m-auto text-center'>
@@ -24,5 +23,4 @@ const UseRefBtn = () => {
     )
 }
 
-export default UseRefBtn
-
+export default BtnUseRef

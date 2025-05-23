@@ -1,7 +1,7 @@
 
 import './App.css'
-import UseRefBtn from './components/useRefBtn'
-import UseStateBtn from './components/useStateBtn'
+import BtnUseRef from './components/BtnUseRef'
+import BtnUseState from './components/BtnUseState'
 
 
 
@@ -9,8 +9,8 @@ function App() {
 
   return (
     <>
-      <UseStateBtn />
-      <UseRefBtn />
+      <BtnUseState/>
+      <BtnUseRef/>
 
 
     </>
