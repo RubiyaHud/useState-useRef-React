@@ -47,10 +47,12 @@
    clickCount.current += 1;
    ```
    This adds `1` to the number stored in `clickCount`, but since it is stored in a `.current` property (and not in state), React does not `re-render` the UI.
+   
 
 ![image](https://github.com/user-attachments/assets/b3833d74-bba2-413a-adb6-3cb2c484977c)
 
 ![image](https://github.com/user-attachments/assets/01f1c67a-44e7-4856-a3fe-7ca9e1a97fb7)
+
 
 ## Render and Re-render in React:
 ###  ![render Icon](https://github.com/RubiyaHud/useState-useRef-React/blob/main/render.png) Render:
