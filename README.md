@@ -5,6 +5,11 @@
 ### Output:
 ![image](https://github.com/user-attachments/assets/ebba77d0-34dc-46f5-8f30-b918192c7a1f)
 
+### Explanation:
+ - `useState(0)` creates a state variable `count` starting at `0`
+ - `setCount` is the **function** to update `count`
+ - Each click calls `setCount(count + 1)`, increasing the number
+ - React re-renders the component with the new number
 
 # useRef
 `useRef` is a special `React Hook` that lets a component keep track of a **Value** or a **DOM element** without causing the component to **re-render** (or **reload** the screen) when that value changes.
@@ -18,7 +23,7 @@
 ![image](https://github.com/user-attachments/assets/23b24441-ee51-43c5-b802-f4d1c54c3524)
 
 
-## Explanation:
+### Explanation:
  - `clickCount` initial value is set to `0`
    
    ```
